@@ -1,0 +1,86 @@
+:root {
+    --primary: #b8866c;
+    --secondary: #5a585c;
+    --muted: #c4c2be;
+}
+
+
+
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    box-sizing: border-box;
+    color: var(--secondary);
+    font-family: 'roboto', sans-serif;
+
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Utility */
+.container {
+    padding: 2rem 1rem;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-box {
+    padding: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    color: var(--primary);
+    background: #fff;
+    border: 3px solid var(--primary);
+    padding: .8rem 2rem;
+    text-transform: uppercase;
+}
+.button:hover {
+    color: #fff;
+    background: var(--primary);
+    transition: all .25s ease-in-out; 
+}
+
+
+
+
+/* Navbar */
+/* Title */
+#title {
+    background: url('https://source.unsplash.com/random/1200x800') no-repeat center center/cover;
+    height: 65vh;
+}
+
+#title .overlay {
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+}
+
+#title .container .text-container h1{
+    color: var(--primary);
+}
+
+#title .container .text-container p{
+    color: #fff;
+}
+
+
+
+
+
