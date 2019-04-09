@@ -1,6 +1,7 @@
 :root {
     --primary: #b8866c;
     --secondary: #5a585c;
+    --main-text: #929192;
     --muted: #c4c2be;
 }
 
@@ -10,11 +11,11 @@
 body {
     margin: 0;
     padding: 0;
-    line-height: 2rem;
+    line-height: 2.5rem;
     box-sizing: border-box;
     color: var(--secondary);
     font-family: 'roboto', sans-serif;
-
+    font-size: 1.25rem;
 }
 
 section {
@@ -24,6 +25,14 @@ section {
 
 a {
     text-decoration: none;
+}
+
+p {
+    color: var(--main-text);
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -43,11 +52,14 @@ a {
     padding: 1rem;
 }
 
+.button-container {
+    margin: 3rem 0;
+}
 .button {
     cursor: pointer;
     color: var(--primary);
     background: #fff;
-    border: 3px solid var(--primary);
+    border: 2px solid var(--primary);
     padding: .8rem 2rem;
     text-transform: uppercase;
 }
@@ -56,6 +68,7 @@ a {
     background: var(--primary);
     transition: all .25s ease-in-out; 
 }
+
 
 
 
@@ -82,5 +95,8 @@ a {
 
 
 
+/* Ad */
+#ad {
 
+}
 
